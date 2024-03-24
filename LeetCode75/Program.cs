@@ -1,3 +1,5 @@
 ﻿using LeetCode75.Problems;
 
-Console.WriteLine(new MergeAlternately().MergeStringsAlternately("ab", "pqrs"));
+if (string.IsNullOrEmpty("          ".Trim()))
+    Console.WriteLine("Null");
+Console.WriteLine(new ReverseWordsInAString().ReverseWords("ab        bc"));
